@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Sign Up</title>
+    <style>
+        body {
+            margin-top: 70px;            
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand"><i class="fa fa-camera-retro"></i> IMGS</div>                
+            </div>
+            <div class="collapse navbar-collapse" id="main-menu"> 
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="landing-page.html" >Home</a></li>
+                    <li><a href="imagegallery.html" >Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up <i class="fa fa-user-plus"></i></a></li>
+                    <li><a href="#">Login <i class="fa fa-user"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">        
+        <h1>Sign Up</h1>
+        <hr>
+        <form action="">
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" placeholder="First Name" name="firstname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" placeholder="Last Name" name="lastname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" name="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" name="password" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="fileupload">File Upload</label>
+                <input type="file" id="fileupload" name="fileupload">
+            </div>
+            <div class="form-group">
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender">
+                <label for="others">Others</label>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+</body>
+</html>
